@@ -12,7 +12,6 @@ void setup() {
 void draw() {
   stroke(r, g, b);
   if (mousePressed) {
-    println(prevMouseX);
     if (prevMouseX == 0 && prevMouseY == 0) {
       fill(r, g, b);
       ellipse(mouseX, mouseY, 10, 10);
